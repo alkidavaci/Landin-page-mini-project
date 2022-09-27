@@ -1,70 +1,84 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-body{
-    background-color: rgb(248, 242, 240);
-   
+body {
+  background-color: rgb(248, 242, 240);
+}
+.heroTop {
+  height: 20px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center;
+}
+.heroBottom {
+  height: 20px;
+  width: 100%;
+  margin-top: 25px;
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center;
 }
 .header {
-    display: block;
-    position: sticky;
-    background-color: rgb(54, 52, 52);
-    color:rgb(235, 219, 217);
-    padding: 50px;
+  background-color: rgb(54, 52, 52);
+  color: rgb(235, 219, 217);
+  padding: 50px;
+}
+
+header nav {
+  margin-left: 25px;
+  float: right;
+  font-size: 30px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+a {
+  color: rgb(235, 219, 217);
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+}
+li a:hover {
+    background-color: rgb(132, 156, 147);
+    padding: 15px;
+    margin: 0px;
   }
 
-  
-.header h1{
-    display: inline;
-    font-size: 50px;
-    padding-left: 100px;
+.content p {
+  padding: 50px;
+  text-align: justify;
+}
+.footer {
+  background-color: rgb(54, 52, 52);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  float: center;
 }
 
-.header nav{
-  margin-left: 25px;
-  float:right; 
-  font-size: 30px; 
- 
- 
+.content {
+  color: rgb(69, 57, 56);
+  background-color: rgb(235, 219, 217);
+  height: 100%;
 }
-
-a{
-    color:rgb(235, 219, 217);
-    text-decoration: none;
-}
-
-.content p{
-    padding: 50px;
-    text-align: justify;
-}
-.footer{
-    display: block;
-    background-color: rgb(69, 57, 56);
-    color: black;
-    padding: 20px;
-    text-align: center;
-    float: center;
-}
-.content{
-    color:  rgb(69, 57, 56);
-    background-color:rgb(235, 219, 217) ;
-    height: 100%;
-    
-      
-}
-
 
 #myPic {
-    width: 25%;
-    height: auto;
-    float: center;
-    margin-left: 150px;
-    float: left;
-    margin: 20px;
-    
-    
+  width: 20%;
+  height: auto;
+  float: center;
+  margin-left: 150px;
+  float: left;
+  margin: 20px;
+  padding-top: 30px;
 }
